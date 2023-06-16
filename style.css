@@ -199,6 +199,7 @@ ul li {
     text-align: center;
     padding: 16px 100px;
     margin-top: 4rem;
+    display: block;
 }
 
 .add-ons h1 {
@@ -208,9 +209,18 @@ ul li {
     margin-bottom: 3rem;
 }
 
+.add-ons-plans{
+    padding: 0px 40px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
 .add-on-cards {
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-width: max-content;
 }
 
 .add-on-cards .card h4 {
@@ -538,9 +548,10 @@ footer .accordion-item button:hover{
         align-items: center;
     }
 
-    .add-on-cards {
+    .add-ons-plans{
+        width: 100%;
+        padding: 0 0;
         overflow-x: scroll;
-        align-items: center;
     }
 
     .questionsImg {
