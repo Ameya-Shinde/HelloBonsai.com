@@ -543,6 +543,10 @@ footer .accordion-item button:hover{
         visibility: hidden;
     }
 
+    .plans .btn-group{
+        flex-direction: column;
+    }
+
     .planCards {
         flex-direction: column;
         align-items: center;
