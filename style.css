@@ -318,13 +318,14 @@ ul li {
 }
 
 .comments {
-    width: 130%;
+    width: 100%;
     padding: 0px 40px;
     display: block;
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
     min-height: max-content;
+    overflow: hidden;
 }
 
 .line {
@@ -567,13 +568,12 @@ footer .accordion-item button:hover{
     }
 
     .add-ons{
-        padding: 0 1rem;
         width: 100%;
+        padding: 0;
+        overflow: hidden;
     }
 
     .add-ons-plans{
-        width: 100%;
-        padding: 0 0;
         overflow-x: scroll;
     }
 
@@ -582,7 +582,7 @@ footer .accordion-item button:hover{
     }
 
     .questions {
-        padding: 0;
+        padding: 0 .5rem;
         margin-bottom: 3rem;
     }
 
