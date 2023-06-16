@@ -540,8 +540,15 @@ footer .accordion-item button:hover{
     }
 
     .categories {
+        padding: 0% !important;
         visibility: hidden;
     }
+
+    .plans h1{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 
     .plans .btn-group{
         flex-direction: column;
@@ -586,7 +593,8 @@ footer .accordion-item button:hover{
 
     .promoTop {
         flex-direction: column;
-        margin-left: 23%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .bannerContent{
