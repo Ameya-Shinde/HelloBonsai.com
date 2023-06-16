@@ -534,9 +534,7 @@ footer .accordion-item button:hover{
     }
 
     .navbar{
-        padding-top: .3rem !important;
-        padding-bottom: .3rem !important;
-
+        padding: .3rem 1rem !important;
     }
 
     .categories {
@@ -546,6 +544,7 @@ footer .accordion-item button:hover{
 
     .plans{
         padding: 0;
+        padding-left: 1rem;
     }
 
     .plans h1{
@@ -568,7 +567,7 @@ footer .accordion-item button:hover{
     }
 
     .add-ons{
-        padding: 0;
+        padding: 0 1rem;
         width: 100%;
     }
 
@@ -597,13 +596,13 @@ footer .accordion-item button:hover{
     }
 
     .comments {
-        padding: 0 0;
+        padding: 0 1rem;
         overflow-x: scroll;
         width: 100%;
     }
 
     .promoTop {
-        padding: 0;
+        padding: 0 1rem;
         flex-direction: column;
     }
 
@@ -623,16 +622,14 @@ footer .accordion-item button:hover{
     }
 
     footer{
-        padding: 0;
+        padding: 0 2rem;
         width: 100%;
     }
 
     .footerTop{
         flex-direction: column;
-        align-items: center;
+        
     }
-
-    
 
     .bottom1{
         flex-direction: column;
