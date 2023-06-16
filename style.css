@@ -1,0 +1,610 @@
+.container-fluid a img {
+    margin-right: 50px;
+}
+
+* a {
+    list-style: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+ul li {
+    list-style: none;
+}
+
+.nav-link {
+    margin: 0px 8px;
+}
+
+.nav-link:hover {
+    color: #32b314 !important;
+}
+
+.navbar {
+    padding: 16px 100px !important;
+    font-weight: 500;
+    background-color: white;
+    box-shadow: 0px 15px 10px -15px #111111a7;
+}
+
+.btn-login:hover {
+    background-color: whitesmoke;
+}
+
+.d-flex button {
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    border-radius: 22px;
+    background-color: transparent;
+}
+
+.btn-start-free {
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    border-radius: 32px;
+    color: white;
+    background-color: #32b314 !important;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 40vw;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.dropdown-content ul li {
+    color: grey;
+}
+
+.dropdown-content ul li:hover {
+    color: #32b314;
+}
+
+.nav-item:hover .dropdown-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content a {
+    color: grey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.categories {
+    padding: 16px 100px;
+    display: flex;
+}
+
+.categories p {
+    color: rgba(128, 128, 128, 0.861);
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.plans {
+    text-align: center;
+    margin-top: 5rem;
+    padding: 16px 100px;
+}
+
+.plans h1 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: #003c2f;
+    margin-bottom: 1.5rem;
+}
+
+.plans .btn-group {
+    border-radius: 80px;
+    padding: 10px;
+    background-color: #f0f5f0;
+    margin-bottom: 2rem;
+}
+
+.plans label {
+    border-radius: 22px;
+    border: none;
+    padding: 15px;
+}
+
+.plans label span {
+    color: #32b314;
+    background-color: white;
+    padding: 5px 8px;
+    border-radius: 22px;
+    font-weight: 500;
+}
+
+.plans .card {
+    border: none;
+    border-radius: 22px !important;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    padding: 2.5rem 0rem !important;
+    height: min-content !important;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.cardlist {
+    text-align: left;
+    line-height: 3rem;
+}
+
+.cardlist span {
+    margin-right: 1rem;
+}
+
+.planCards {
+    display: flex;
+    justify-content: center;
+}
+
+
+.card-header button {
+    margin-bottom: 1rem;
+}
+
+.card-header p span {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #003c2f;
+}
+
+.card-header h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #003c2f;
+}
+
+.card-header p {
+    color: rgba(128, 128, 128, 0.826);
+    font-weight: bold;
+}
+
+.card2 {
+    box-shadow: 0px -10px 0px 15px #ee8146 !important;
+    height: min-content !important;
+}
+
+.card button {
+    padding: 13px 40px;
+}
+
+.plandes {
+    font-weight: 500 !important;
+}
+
+.xtra {
+    color: grey;
+    margin-left: 2rem;
+}
+
+.add-ons {
+    text-align: center;
+    padding: 16px 100px;
+    margin-top: 4rem;
+}
+
+.add-ons h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #003c2f;
+    margin-bottom: 3rem;
+}
+
+.add-on-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.add-on-cards .card h4 {
+    text-align: end;
+}
+
+.add-on-cards .card h5 {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.add-on-cards .card {
+    text-align: left;
+    border-radius: 25px;
+    padding: 2rem 1rem;
+    margin-right: 2rem;
+    width: 23%;
+    min-width: max-content;
+}
+
+.add-on-cards .card p {
+    color: grey;
+    margin-bottom: 6rem;
+}
+
+.add-on-cards .card span a {
+    color: #32b314;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: underline !important;
+}
+
+.questions {
+    margin-top: 6rem;
+    display: flex;
+    padding-left: 150px;
+    padding-bottom: 5rem;
+    overflow: hidden;
+    padding-top: 4rem;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.questionlist {
+    width: 55%;
+    margin-top: 4rem;
+    overflow: visible;
+}
+
+.questionlist h1 {
+    padding-left: 40px;
+    margin-bottom: 3.5rem;
+    font-weight: bolder;
+}
+
+.questions button {
+    font-size: 1.2rem;
+    padding: 2.5rem;
+    font-weight: bold;
+}
+
+.questionsImg {
+    width: 30%;
+    height: 100%;
+    max-width: 1144px;
+    position: relative;
+    display: block;
+
+}
+
+.questionsImg img {
+    position: absolute;
+    max-width: 991px;
+    width: 794.5px;
+    top: -69px;
+}
+
+.trusted {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trusted h1 {
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    gap: 5rem;
+}
+
+.comments {
+    width: 130%;
+    padding: 0px 40px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    min-height: max-content;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 20px;
+    min-width: max-content;
+}
+
+.line p {
+    color: #003c2f;
+    background-color: #ecf1ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.promotion {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: block;
+}
+
+.promoTop {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 1144px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.promoTop .imgContainer {
+    width: 51%;
+}
+
+.promoTop .imgContainer img {
+    max-width: 100%;
+}
+
+.promoContent {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    width: 100%;
+    max-width: 410px;
+}
+
+.promoContent .card h5 {
+    color: #003c2f;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 100%;
+    margin: 10px 0px;
+    margin-bottom: 1.5rem;
+}
+
+.promoContent .card p {
+    color: #65816d;
+    letter-spacing: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 1.7rem;
+}
+
+.promoContent .card a {
+    color: #32b314;
+    font-weight: bolder;
+    text-underline-offset: .2rem;
+    text-decoration: underline !important;
+}
+
+.promoContent .card {
+    border: none;
+}
+
+.banner {
+    background-color: #003c2f;
+    background-image: url("https://assets-global.website-files.com/635ac9564cc3682ce1536786/638f45d98fe0830d8223e439_pattern%20(1)%20(1).png");
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 25px;
+    padding: 40px 70px;
+    margin-top: 120px;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.bannerContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannerContent p{
+    font-weight: 400;
+    color: white;
+    line-height: 120%;
+    font-size: 36px;
+}
+
+footer{
+    padding: 0rem 7rem;
+}
+
+.footerTop{
+    display: flex;
+    gap: 1rem;
+}
+
+.footlinks{
+    min-width: 20%;
+    text-align: left !important;
+    height: max-content;
+}
+
+.footlinks .footlogo{
+    width: 130px;
+    margin-bottom: 50px;
+}
+
+.footlogo img{
+    width: 100%;
+}
+
+.footlinks h6{
+    font-size: 16px !important;
+    font-weight: 700;
+    color: #003c2f;
+}
+
+.footseprator{
+    margin-top: 24px;
+}
+
+.footlinks ul{
+    padding: 0;
+}
+
+.footlinks ul li{
+    color: #65816d;
+    font-weight: 500;
+    line-height: 1.9rem;
+}
+
+.footlinks ul li:hover{
+    color: #32b314;
+}
+
+footer .accordion-item{
+    border: none !important;
+}
+
+footer .accordion-item button{
+    color: #65816d;
+    font-weight: 500;
+    border-radius: 20px !important;
+    padding: 0 !important;
+}
+
+footer .accordion-item button:hover{
+    color: #32b314;
+}
+
+.footerBottom{
+    padding-bottom: 40px;
+}
+
+.bottom1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footSocial{
+    display: flex;
+    gap: 1rem;
+}
+
+.footRights{
+    display: flex;
+    gap: 2rem;
+   color: #65816d;
+   opacity: .5;
+}
+
+.bottomDes{
+    margin: 40px 0px;
+    font-size: .8rem;
+    color: #65816d;
+    opacity: .5;
+}
+
+@media screen and (max-width: 991px) {
+    .dropdown-content {
+        position: relative;
+        flex-direction: column;
+    }
+
+    .navbar{
+        padding-top: .3rem !important;
+        padding-bottom: .3rem !important;
+
+    }
+
+    .categories {
+        visibility: hidden;
+    }
+
+    .planCards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .add-on-cards {
+        overflow-x: scroll;
+        align-items: center;
+    }
+
+    .questionsImg {
+        display: none;
+    }
+
+    .questions {
+        overflow: visible;
+        height: auto;
+        padding: 0;
+        margin-bottom: 3rem;
+    }
+
+    .questionlist{
+       margin-left: auto ;
+       margin-right: auto;
+    }
+
+    .stars{
+        flex-direction: column;
+    }
+
+    .comments {
+        padding: 0 0;
+        overflow-x: scroll;
+        width: 100%;
+    }
+
+    .promoTop {
+        flex-direction: column;
+        margin-left: 23%;
+    }
+
+    .bannerContent{
+        flex-direction: column;
+        text-align: center; 
+    }
+    
+    .banner{
+        width: 90%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footerTop{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footlinks{
+        min-width: 40%;
+    }
+
+    .bottom1{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footRights{
+        gap: 0rem !important;
+        flex-direction: column;
+    }
+
+    .footSocial{
+        justify-content: center;
+    }
+}

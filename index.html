@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bonsai-Pricing</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a href="#"><img
+          src="https://assets-global.website-files.com/635ac9564cc3682ce1536786/635b95cfdbc1e264b35486ad_Symbols.svg"
+          alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Product</a>
+            <div class="dropdown-content">
+              <ul>
+                <a href="#">
+                  <li>CRM</li>
+                </a>
+                <a href="#">
+                  <li>Scheduling</li>
+                </a>
+                <a href="#">
+                  <li>Proposals</li>
+                </a>
+                <a href="#">
+                  <li>Contracts</li>
+                </a>
+                <a href="#">
+                  <li>Forms</li>
+                </a>
+              </ul>
+              <ul>
+                <a href="#">
+                  <li>Time Tracking</li>
+                </a>
+                <a href="#">
+                  <li>Tasks</li>
+                </a>
+                <a href="#">
+                  <li>File sharing</li>
+                </a>
+                <a href="#">
+                  <li>Client portal</li>
+                </a>
+                <a href="#">
+                  <li>Collaboration</li>
+                </a>
+              </ul>
+              <ul>
+                <a href="#">
+                  <li>Invoicing</li>
+                </a>
+                <a href="#">
+                  <li>Payments</li>
+                </a>
+                <a href="#">
+                  <li>Accounting</li>
+                </a>
+                <a href="#">
+                  <li>Taxes</li>
+                </a>
+                <a href="#">
+                  <li>Banking</li>
+                </a>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Industries</a>
+            <div class="dropdown-content">
+              <ul>
+                <a href="#">
+                  <li>Consulting</li>
+                </a>
+                <a href="#">
+                  <li>Marketing</li>
+                </a>
+                <a href="#">
+                  <li>Recruiting</li>
+                </a>
+                <a href="#">
+                  <li>Virtual Assistant</li>
+                </a>
+              </ul>
+              <ul>
+                <a href="#">
+                  <li>Design</li>
+                </a>
+                <a href="#">
+                  <li>Photography</li>
+                </a>
+                <a href="#">
+                  <li>Software Development</li>
+                </a>
+                <a href="#">
+                  <li>Writing</li>
+                </a>
+              </ul>
+              <ul>
+                <a href="#">
+                  <li>Coaching</li>
+                </a>
+                <a href="#">
+                  <li>Architecture</li>
+                </a>
+                <a href="#">
+                  <li>Accounting</li>
+                </a>
+                <a href="#">
+                  <li>Legal</li>
+                </a>
+              </ul>
+              <ul>
+                <a href="#">
+                  <li>Event Planning</li>
+                </a>
+                <a href="#">
+                  <li>Interior Design</li>
+                </a>
+                <a href="#">
+                  <li>Real-Estate</li>
+                </a>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Templates</a>
+            <div class="dropdown-content">
+              <ul>
+                <a href="">
+                  <li>Agreements</li>
+                </a>
+                <a href="">
+                  <li>Briefs</li>
+                </a>
+                <a href="">
+                  <li>Contracts</li>
+                </a>
+                <a href="">
+                  <li>Credit notes</li>
+                </a>
+                <a href="">
+                  <li>Estimates</li>
+                </a>
+              </ul>
+              <ul>
+                <a href="">
+                  <li>Forms</li>
+                </a>
+                <a href="">
+                  <li>Invoices</li>
+                </a>
+                <a href="">
+                  <li>Proposals</li>
+                </a>
+                <a href="">
+                  <li>Quotes</li>
+                </a>
+                <a href="">
+                  <li>Scopes of work</li>
+                </a>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resources</a>
+            <div class="dropdown-content">
+              <ul>
+                <a href="">
+                  <li>Blog</li>
+                </a>
+                <a href="">
+                  <li>Help Center</li>
+                </a>
+              </ul>
+              <ul>
+                <a href="">
+                  <li>Contract Maker</li>
+                </a>
+                <a href="">
+                  <li>Self-Employed Taxes Hub</li>
+                </a>
+                <a href="">
+                  <li>Freelance Rates Explorer</li>
+                </a>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reviews</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <button class="btn-login" type="button">Log in</button>
+          <button class="btn-start-free" type="button">Start free</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="categories">
+    <a href="#">
+      <p>Small businesses</p>
+    </a>
+    <a href="#">
+      <p>Agencies</p>
+    </a>
+    <a href="#">
+      <p>Freelancers</p>
+    </a>
+  </div>
+
+  <section class="plans">
+    <h1>Pick the best plan for <br> your business</h1>
+
+    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+      <label class="btn btn-outline-secondary" for="btnradio1">Monthly</label>
+
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+      <label class="btn btn-outline-secondary" for="btnradio2">Yearly
+        <span>2 months free</span>
+      </label>
+
+
+    </div>
+
+    <div class="planCards">
+      <div class="card mb-3" style="max-width: 22rem;">
+        <div class="card-header bg-body">
+          <h2>Starter</h2>
+          <p><span>$ 24 </span> /month</p>
+          <button class="btn-start-free" type="button">Start for free</button>
+          <p class="plandes">Ideal for freelancers and contractors just starting out.</p>
+        </div>
+        <div class="card-body cardlist">
+          <ul>
+            <li><span>&#10004;</span>All Templates</li>
+            <li><span>&#10004;</span>Unlimited Clients & Projects</li>
+            <li><span>&#10004;</span>Invoicing & Payments</li>
+            <li><span>&#10004;</span>Proposal & Contracts</li>
+            <li><span>&#10004;</span>Scheduling</li>
+            <li><span>&#10004;</span>Tasks & Time Tracking</li>
+            <li><span>&#10004;</span>Client CRM</li>
+            <li><span>&#10004;</span>Forms & Questionnaires</li>
+            <li><span>&#10004;</span>Expense Tracking</li>
+            <li><span>&#10004;</span>Up to 5 Project Collaborators</li>
+          </ul>
+        </div>
+        <div class="card-body bg-body border-light">
+          <button class="btn-start-free" type="button">Start for free</button>
+        </div>
+      </div>
+
+      <div class="card mb-3 card2" style="max-width: 22rem;">
+        <div class="card-header bg-body">
+          <h2>Professional</h2>
+          <p><span>$ 39 </span> /month</p>
+          <button class="btn-start-free" type="button">Start for free</button>
+          <p class="plandes">Everything a growing independent business needs to thrive.</p>
+        </div>
+        <div class="card-body cardlist">
+          <ul>
+            <li><span>&#10004;</span>Everything in Starter, plus:</li>
+            <li><span>&#10004;</span>Custom Branding</li>
+            <li><span>&#10004;</span>Workflow Automations</li>
+            <li><span>&#10004;</span>Client Portal</li>
+            <li><span>&#10004;</span>Unlimited Scheduling events</li>
+            <li><span>&#10004;</span>QuickBooks Integration</li>
+            <li><span>&#10004;</span>Calendly Integration</li>
+            <li><span>&#10004;</span>Zapier Integration</li>
+            <li><span>&#10004;</span>Up to 15 Project Collaborators</li>
+
+          </ul>
+        </div>
+        <div class="card-body bg-body border-light">
+          <button class="btn-start-free" type="button">Start for free</button>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 22rem;">
+        <div class="card-header bg-body">
+          <h2>Business</h2>
+          <p><span>$ 79 </span> /month</p>
+          <button class="btn-start-free" type="button">Start for free</button>
+          <p class="plandes">The perfect package for small businesses and agencies.</p>
+        </div>
+        <div class="card-body cardlist">
+          <ul>
+            <li><span>&#10004;</span>Everything in Professional, plus:</li>
+            <li><span>&#10004;</span>Subcontractor Management</li>
+            <li><span>&#10004;</span>Hiring Agreement Templates <br>
+              <span class="xtra">(1099 contractors)</span>
+            </li>
+            <li><span>&#10004;</span>Subcontractor Onboarding</li>
+            <li><span>&#10004;</span>Talent Pool</li>
+            <li><span>&#10004;</span>3 Team Seats <br>
+              <span class="xtra">additional seats $9/month</span>
+            </li>
+            <li><span>&#10004;</span>Accountant Access</li>
+            <li><span>&#10004;</span>Connect Multiple Bank Accounts</li>
+            <li><span>&#10004;</span>Unlimited Subcontractors</li>
+            <li><span>&#10004;</span>Unlimited Project Collaborators</li>
+          </ul>
+        </div>
+        <div class="card-body bg-body border-light">
+          <button class="btn-start-free" type="button">Start for free</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="add-ons">
+    <h1>Take it to the <br>
+      next level with add-ons</h1>
+    <div class="add-on-cards">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Collaborators</h5>
+          <p class="card-text">Invite other users to specific <br>projects for limited access and <br> functionality.
+          </p>
+          <h4>Free</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Partners</h5>
+          <p class="card-text">Invite other users for full account <br> access and company <br> management.</p>
+          <h4><span>$9 </span> /month</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Tax Assistant</h5>
+          <p class="card-text">Track expenses, identify write-offs, <br> and estimate quarterly taxes <br>
+            <easily class="br"></easily>
+            <span><a href="">Learn more</a></span>
+          </p>
+          <h4><span>$10 </span> /month</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="questions">
+    <div class="questionlist">
+      <h1>Frequently asked questions</h1>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              How does the free trial work?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">When you start your trial with Bonsai you'll receive full, unlimited access to
+              the plan you chose. You will need to enter your credit card information to begin your trial, but don't
+              worry - we won't charge you anything until the trial ends. You can cancel at any time during the trial
+              period via your Subscriptions settings.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Can I change my plan anytime?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Yes, you can upgrade, downgrade or cancel your plan at any time via your
+              Subscription settings.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Is my Bonsai subscription tax deductible?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Yes, the IRS allows for tax deduction for software you use to run your business.
+              Bonsai's expense tracking even automatically categorizes your subscription as a deductible software
+              expense.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              What is your refund policy?
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">If you contact us within two weeks of being charged for your subscription, we
+              will be happy to issue a refund for you. Beyond those two weeks, you will need to cancel or modify the
+              subscription from the Subscriptions tab in Settings to avoid future charges, but refunds will not be
+              issued. This applies to both monthly and annual plans.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="questionsImg">
+      <img src="https://assets-global.website-files.com/635ac9564cc3682ce1536786/63d94c7a62e51410f00e2adc_Branch_3.png"
+        alt="">
+    </div>
+
+  </section>
+
+  <section class="trusted">
+    <h1>Trusted by 500,000+ <br>
+      business owners</h1>
+    <div class="stars">
+      <a href="#"><img
+          src="https://assets-global.website-files.com/635ac9564cc3682ce1536786/6368ee758abc407679fe354f_g2.svg"
+          alt=""></a>
+      <a href="#"><img
+          src="https://assets-global.website-files.com/635ac9564cc3682ce1536786/6446774a3c07c5353f34dd13_Capterra.svg"
+          alt=""></a>
+    </div>
+
+    <div class="comments">
+      <div class="line">
+        <p>“My best friend in scaling my business”</p>
+        <p>“Like putting my finances on auto-pilot”</p>
+        <p>“Bonsai does the hard work”</p>
+        <p>“Everything is streamlined”</p>
+      </div>
+      <div class="line">
+        <p>“Huge timesaver”</p>
+        <p>“It’s been the most stress-free year of my life!”</p>
+        <p>“I feel more confident”</p>
+        <p>“Backbone of my business”</p>
+        <p>“So simple”</p>
+      </div>
+      <div class="line">
+        <p>“Clients love how easy my systems are”</p>
+        <p>“A must-have!”</p>
+        <p>“I do less admin and do more of what I love”</p>
+        <p>“Worry-free contracts and invoices”</p>
+      </div>
+      <div class="line">
+        <p>“It pays for itself”</p>
+        <p>“Great customer service!”</p>
+        <p>“A life-saver!”</p>
+        <p>“Clients take me more seriously”</p>
+        <p>“I upped my rates and won more clients”</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="promotion">
+    <div class="promoTop">
+      <div class="imgContainer">
+        <img
+          src="https://assets-global.website-files.com/635ac9564cc3682ce1536786/63692f696516f97a0a53982b_Group%2012657-p-1080.png"
+          alt="">
+      </div>
+
+      <div class="promoContent">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Need help? We’ll <br>
+              be right with you</h5>
+            <p class="card-text">Our friendly, speedy, Customer Support has all the answers and is here to help you.</p>
+            <a href="#" class="card-link">Contact us</a>
+          </div>
+        </div>
+        <hr>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Quick to set up <br>
+              Even easier to use</h5>
+            <p class="card-text">You get 7 days to try it for free. And if it's not what you expected, we guarantee your
+              money back within the first two weeks.</p>
+            <button class="btn-start-free" type="button">Get Started</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="promoBottom">
+      <div class="banner">
+        <div class="bannerContent">
+          <p>Get started in 30 seconds <br>
+            Free for 7 days</p>
+          <button class="btn-start-free" type="button">Start free trial now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footerTop">
+      <div class="footlinks">
+        <div class="footlogo">
+          <img
+            src="https://assets-global.website-files.com/635ac9564cc3682ce1536786/635b95cfdbc1e264b35486ad_Symbols.svg"
+            alt="logo">
+        </div>
+        <h6>Company</h6>
+        <ul>
+          <a href="#">
+            <li>Help center</li>
+          </a>
+          <a href="#">
+            <li>Contact us</li>
+          </a>
+          <a href="#">
+            <li>Privacy</li>
+          </a>
+          <a href="#">
+            <li>Terms and conditions</li>
+          </a>
+          <a href="#">
+            <li>Careers</li>
+          </a>
+          <a href="#">
+            <li class="footseprator">Affiliate Program</li>
+          </a>
+        </ul>
+      </div>
+      <div class="footlinks">
+        <h6>Product</h6>
+        <ul>
+          <a href="#">
+            <li>Proposals</li>
+          </a>
+          <a href="#">
+            <li>Contracts</li>
+          </a>
+          <a href="#">
+            <li>Invoicing</li>
+          </a>
+          <a href="#">
+            <li>Client CRM</li>
+          </a>
+          <a href="#">
+            <li>Scheduling</li>
+          </a>
+          <a href="#">
+            <li>Time tracking</li>
+          </a>
+          <a href="#">
+            <li>Tasks management</li>
+          </a>
+          <a href="#">
+            <li>Forms</li>
+          </a>
+          <a href="#">
+            <li>Accounting</li>
+          </a>
+          <a href="#">
+            <li>Taxes</li>
+          </a>
+          <a href="#">
+            <li>Banking</li>
+          </a>
+          <a href="#">
+            <li class="footseprator">Reviews</li>
+          </a>
+          <a href="#">
+            <li>Pricing</li>
+          </a>
+        </ul>
+      </div>
+      <div class="footlinks">
+        <h6>Business Types</h6>
+        <ul>
+          <a href="#">
+            <li>Accounting</li>
+          </a>
+          <a href="#">
+            <li>Agencies</li>
+          </a>
+          <a href="#">
+            <li>Architecture</li>
+          </a>
+          <a href="#">
+            <li>Beauty and Wellness</li>
+          </a>
+          <a href="#">
+            <li>Coaching</li>
+          </a>
+          <a href="#">
+            <li>Consulting</li>
+          </a>
+          <a href="#">
+            <li>Design</li>
+          </a>
+          <a href="#">
+            <li>Event Planning</li>
+          </a>
+          <a href="#">
+            <li>Freelancers</li>
+          </a>
+          <a href="#">
+            <li>Health</li>
+          </a>
+          <a href="#">
+            <li>Interior Design</li>
+          </a>
+          <a href="#">
+            <li>Legal</li>
+          </a>
+          <a href="#">
+            <li>Marketing</li>
+          </a>
+          <a href="#">
+            <li>Photography</li>
+          </a>
+          <a href="#">
+            <li>Real-Estate</li>
+          </a>
+          <a href="#">
+            <li>Recruiting</li>
+          </a>
+          <a href="#">
+            <li>Small businesses</li>
+          </a>
+          <a href="#">
+            <li>Software Development</li>
+          </a>
+          <a href="#">
+            <li>Virtual Assistant</li>
+          </a>
+          <a href="#">
+            <li>Writing</li>
+          </a>
+          <a href="#">
+            <li>View all business types</li>
+          </a>
+
+        </ul>
+      </div>
+      <div class="footlinks">
+        <h6>Resources</h6>
+        <ul>
+          <a href="#">
+            <li>Blog</li>
+          </a>
+          <a href="#">
+            <li>How to Write a Contract</li>
+          </a>
+          <a href="#">
+            <li>Online Signature Maker</li>
+          </a>
+          <a href="#">
+            <li>Self-Employed Taxes Hub</li>
+          </a>
+          <a href="#">
+            <li>Self-Employed Tax Calculator</li>
+          </a>
+          <a href="#">
+            <li>Self-Employed Tax Deductions</li>
+          </a>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingR1">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseR1" aria-expanded="false" aria-controls="flush-collapseR1">
+                <ul>
+                  <li>Comparisons</li>
+                </ul>
+              </button>
+            </h2>
+            <div id="flush-collapseR1" class="accordion-collapse collapse" aria-labelledby="flush-headingR1"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul>
+                  <a href="#">
+                    <li>FreshBooks alternatives</li>
+                  </a>
+                  <a href="#">
+                    <li>QuickBooks alternatives</li>
+                  </a>
+                  <a href="#">
+                    <li>Wave vs. QuickBooks</li>
+                  </a>
+                  <a href="#">
+                    <li>Xero vs. QuickBooks</li>
+                  </a>
+                  <a href="#">
+                    <li>FreshBooks vs. QuickBooks</li>
+                  </a>
+                  <a href="#">
+                    <li>HoneyBook alternatives</li>
+                  </a>
+                  <a href="#">
+                    <li>Dubsado alternatives</li>
+                  </a>
+                  <a href="#">
+                    <li>Proposify alternatives</li>
+                  </a>
+                  <a href="#">
+                    <li>Xero alternatives</li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <div class="footlinks">
+        <h6>Templates</h6>
+        <ul>
+          <li>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingT1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseT1" aria-expanded="false" aria-controls="flush-collapseT1">
+                  <ul>
+                    <li>Comparisons</li>
+                  </ul>
+                </button>
+              </h2>
+              <div id="flush-collapseT1" class="accordion-collapse collapse" aria-labelledby="flush-headingT1"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <ul>
+                    <a href="#">
+                      <li>Contract templates</li>
+                    </a>
+                    <a href="#">
+                      <li>Client Contract Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Construction Contract Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Design Contract Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Employment Contract Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Freelance Contract
+                        Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free General Contract Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Hourly Rate Contract
+                        Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Independent Contractor Agreement Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Non-Disclosure Agreement
+                        Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Online Contract Maker</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Project Management Agreement Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Service Agreement
+                        Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Simple Contract Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Social Media Management Contract Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Virtual Assistant Contract
+                        Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Project Contract Template</li>
+                    </a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingT2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseT2" aria-expanded="false" aria-controls="flush-collapseT2">
+                  <ul>
+                    <li>Proposals</li>
+                  </ul>
+                </button>
+              </h2>
+              <div id="flush-collapseT2" class="accordion-collapse collapse" aria-labelledby="flush-headingT2"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <ul>
+                    <a href="#">
+                      <li>Proposals templates</li>
+                    </a>
+                    <a href="#">
+                      <li>Client Contract Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Construction Contract Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Design Contract Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Employment Contract Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Freelance Contract
+                        Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free General Contract Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Hourly Rate Contract
+                        Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Independent Contractor Agreement Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Non-Disclosure Agreement
+                        Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Online Contract Maker</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Project Management Agreement Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Service Agreement
+                        Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Simple Contract Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Social Media Management Contract Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Virtual Assistant Contract
+                        Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Project Contract Template</li>
+                    </a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingT3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseT3" aria-expanded="false" aria-controls="flush-collapseT3">
+                  <ul>
+                    <li>Invoices</li>
+                  </ul>
+                </button>
+              </h2>
+              <div id="flush-collapseT3" class="accordion-collapse collapse" aria-labelledby="flush-headingT3"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <ul>
+                    <a href="#">
+                      <li>Invoice templates</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Basic Invoice Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Blank Invoice Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Contractor Invoice Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Custom Invoice Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Freelance Invoice Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Invoice Template for Email</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Online Invoice (with our
+                        Invoice Maker)</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Proforma Invoice Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Retainer Invoice Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Sample Invoice Template
+                        (Word)</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Work Invoice Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Online Invoice Generator & Invoice Template</li>
+                    </a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingT4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseT4" aria-expanded="false" aria-controls="flush-collapseT4">
+                  <ul>
+                    <li>Forms</li>
+                  </ul>
+                </button>
+              </h2>
+              <div id="flush-collapseT4" class="accordion-collapse collapse" aria-labelledby="flush-headingT4"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <ul>
+                    <a href="#">
+                      <li>Form templates</li>
+                    </a>
+                    <a href="#">
+                      <li>Business Client Intake Form</li>
+                    </a>
+                    <a href="#">
+                      <li>Business Intake Form</li>
+                    </a>
+                    <a href="#">
+                      <li>Client Contact Form Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Client Enrollment Form</li>
+                    </a>
+                    <a href="#">
+                      <li>Client Feedback Form</li>
+                    </a>
+                    <a href="#">
+                      <li>Client Info Form</li>
+                    </a>
+                    <a href="#">
+                      <li>Client Intake Form</li>
+                    </a>
+                    <a href="#">
+                      <li>Comprehensive Client Form</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Portfolio Contact Page</li>
+                    </a>
+                    <a href="#">
+                      <li>Marketing Client Intake Form</li>
+                    </a>
+                    <a href="#">
+                      <li>Project Intake Form</li>
+                    </a>
+                    <a href="#">
+                      <li>Website Intake Form</li>
+                    </a>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingT5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseT5" aria-expanded="false" aria-controls="flush-collapseT5">
+                  <ul>
+                    <li>Quotes</li>
+                  </ul>
+                </button>
+              </h2>
+              <div id="flush-collapseT5" class="accordion-collapse collapse" aria-labelledby="flush-headingT5"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <ul>
+                    <a href="#">
+                      <li>Quote templates</li>
+                    </a>
+                    <a href="#">
+                      <li>Blank Quote Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Creative Quotation Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Editable Quotation Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Formal Quote Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Contractor Quote Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Freelance Quotation Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Sample Quotation Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Service Quote Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Online Quote Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Price Quote Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Simple Quotation Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Work Quote Template</li>
+                    </a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingT6">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseT6" aria-expanded="false" aria-controls="flush-collapseT6">
+                  <ul>
+                    <li>Scopes of work</li>
+                  </ul>
+                </button>
+              </h2>
+              <div id="flush-collapseT6" class="accordion-collapse collapse" aria-labelledby="flush-headingT6"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <ul>
+                    <a href="#">
+                      <li>Scopes of work templates</li>
+                    </a>
+                    <a href="#">
+                      <li>Contractor Statement of Work Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Consultant Statement of Work
+                        Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Digital Marketing Scope of
+                        Work Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free SOW for Software
+                        Development</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Statement of Work (PDF)</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Statement of Work Contract
+                        Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Website Development Scope
+                        of Work Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Freelance Statement of Work
+                        Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Interior Design Scope of Work Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Project Scope Of Work Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Remodel Scope Of Work Template</li>
+                    </a>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingT7">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseT7" aria-expanded="false" aria-controls="flush-collapseT7">
+                  <ul>
+                    <li>Agreements</li>
+                  </ul>
+                </button>
+              </h2>
+              <div id="flush-collapseT7" class="accordion-collapse collapse" aria-labelledby="flush-headingT7"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <ul>
+                    <a href="#">
+                      <li>Agreements templates</li>
+                    </a>
+                    <a href="#">
+                      <li>Sample Lawyer Engagement
+                        Letter</li>
+                    </a>
+                    <a href="#">
+                      <li>Professional Services Retainer
+                        Agreement</li>
+                    </a>
+                    <a href="#">
+                      <li>One-Page Consulting Agreement</li>
+                    </a>
+                    <a href="#">
+                      <li>Master Service Agreement
+                        Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Life Coaching Session Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Interior Design Services Agreement
+                        Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Interior Design Retainer Agreement</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Writing Partnership
+                        Agreement Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Subcontractor Contract Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Software Maintenance
+                        Agreement Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Small Business Partnership
+                        Agreement Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Simple Consulting Agreement
+                        Letter</li>
+                    </a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingT8">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseT8" aria-expanded="false" aria-controls="flush-collapseT8">
+                  <ul>
+                    <li>Brief</li>
+                  </ul>
+                </button>
+              </h2>
+              <div id="flush-collapseT8" class="accordion-collapse collapse" aria-labelledby="flush-headingT8"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <ul>
+                    <a href="#">
+                      <li>Brief templates</li>
+                    </a>
+                    <a href="#">
+                      <li>Creative Brief (Example)</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Brief Template (Word)</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Client Brief Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Concept Brief Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Consulting Brief</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Creative Brief (with
+                        Generator)</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Creative Brief Sample</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Creative Brief Template
+                        (Word)</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Creative Design Brief</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Product Brief Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Project Brief Template</li>
+                    </a>
+                    <a href="#">
+                      <li>Free Strategy Brief</li>
+                    </a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <hr>
+    <div class="footerBottom">
+      <div class="bottom1">
+        <div class="footSocial">
+          <img
+            src="https://assets-global.website-files.com/635ac9564cc3682ce1536786/635fe4f6f27b8975b546ae40_Frame%2012620.svg"
+            alt="">
+            <img src="https://assets-global.website-files.com/635ac9564cc3682ce1536786/635fe519af5055bb9acb73f3_Frame%2012620%20(1).svg" alt="">
+        </div>
+        <div class="footRights">
+          <p>© Bonsai 2023</p>
+          <p>FDIC insured up to $250k</p>
+        </div>
+      </div>
+      <div class="bottomDes">
+        <p>©2023 Bonsai Technologies Inc —  FDIC insured up to $250,000. Payments, banking, and issuing services are provided by Stripe Payments Company, Evolve Bank & Trust (Member FDIC), and Celtic Bank (Member FDIC), respectively. Bonsai is not a law firm, and does not provide legal services, advice, or representation. Some product imagery is for illustrative purposes only and the actual product experience may differ.</p>
+      </div>
+
+    </div>
+  </footer>
+</body>
+
+</html>
